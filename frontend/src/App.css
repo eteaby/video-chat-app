@@ -1,0 +1,139 @@
+body {
+	margin: 0;
+	font-family: 'Arial', sans-serif;
+	background-color: #1e1e1e; /* Dark background */
+	color: #ffffff; /* White text */
+  }
+  
+  header {
+	background-color: #383838; /* Dark gray header */
+	color: #ffffff;
+	padding: 10px 20px;
+	text-align: center;
+	font-size: 24px;
+  }
+  
+  .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+  }
+  
+  .video-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 20px;
+	margin-bottom: 20px;
+  }
+  
+  .video {
+	  position: relative;
+	  width: 400px; /* Increased width */
+	  height: 300px; /* Increased height */
+	  background-color: #292929; /* Darker video background */
+	  border-radius: 8px;
+	  overflow: hidden;
+	}
+	
+	video {
+	  width: 100%;
+	  height: 100%;
+	  border-radius: 8px;
+	}
+	
+  
+  .video-buttons {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	gap: 10px;
+  }
+  
+  .video-buttons button {
+	background-color: #406fc1d0; /* Dark gray buttons */
+	color: #ffffff;
+	border: none;
+	padding: 10px;
+	border-radius: 11px;
+	cursor: pointer;
+  }
+  
+  .video-buttons button:hover {
+	background-color: #4f4f4f; /* Slightly lighter gray on hover */
+  }
+  
+  .controls {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 20px;
+  }
+  
+  button {
+	background-color: #0078d4; /* Blue accent for buttons */
+	color: #ffffff;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	background-color: #005a9e; /* Darker blue on hover */
+  }
+  
+  input,
+  .copy-id-button {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #555555; /* Darker border for input fields */
+	margin-right: 10px;
+  }
+  
+  .copy-id-button {
+	background-color: #0078d4; /* Blue copy ID button */
+	color: #ffffff;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .copy-id-button:hover {
+	background-color: #005a9e; /* Darker blue on hover */
+  }
+  
+  .caller-notification {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	background-color: #383838; /* Dark gray notification background */
+	border: 1px solid #555555;
+	padding: 10px 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .caller-notification h2 {
+	margin: 0;
+	margin-bottom: 10px;
+	color: #ffffff;
+  }
+  
+  .caller-notification button {
+	margin-left: 10px;
+	background-color: #0078d4; /* Blue button */
+	color: #ffffff;
+	border: none;
+	padding: 8px 12px;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .caller-notification button:hover {
+	background-color: #005a9e; /* Darker blue on hover */
+  }
+  
