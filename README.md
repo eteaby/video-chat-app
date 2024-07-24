@@ -1,4 +1,4 @@
-           MeetUp
+          ** MeetUp**
 MeetUp is a video chatting application that allows users to connect with others through live video calls. 
 The application features a modern UI with dark theme, a video chat interface, and a side chat box for text chatting with emoji and reactions.
 
