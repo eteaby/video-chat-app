@@ -23,8 +23,14 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow */
   animation: fadeIn 2s ease-in-out; /* Fade-in animation */
-  opacity: 1; /* Ensure the image is visible */
+  opacity: 0; /* Start as invisible */
   animation-fill-mode: forwards; /* Ensure the image stays visible after the animation */
+  transition: opacity 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 /* Date and time */
@@ -76,7 +82,7 @@
 
 /* Meeting history section */
 .meeting-history {
-  background-color: #1a1a1a; /* Darker grey background */
+  background-color: #333333; /* Darker grey background */
   width: 100%;
   max-width: 800px;
   margin: 20px auto; /* Center the section and add margin */
@@ -87,16 +93,15 @@
 .history-card {
   padding: 16px;
   margin-bottom: 20px;
-  background-color: #333; /* Darker grey background */
+  background-color: #333; /* Lighter grey background */
   border-radius: 8px;
   text-align: left;
   font-size: 1rem; /* Adjust font size */
-  color: #fff; /* Card text color */
+  color: #9d9898; 
 }
 
-/* Preserve existing drawer styles */
 .drawer {
-  background-color: #333 !important;
+  background-color: #333333 !important;
   color: #fff !important;
   transition: width 0.2s;
 }
@@ -138,7 +143,7 @@
 
 .MuiListItem-root:hover,
 .MuiListItemIcon-root:hover {
-  background-color: #0047ab !important; /* Dark blue hover color */
+  background-color: #66686a !important;
 }
 
 .content {
@@ -157,7 +162,7 @@
   display: flex;
   align-items: center;
   justify-content: center; /* Center items horizontally */
-  background-color: #333;
+  background-color: black;
   color: #fff;
   padding: 10px;
   border-bottom: none; /* Remove bottom border */
@@ -181,7 +186,7 @@
 }
 
 .profile-icon:hover {
-  transform: scale(1.1); /* Scale up slightly on hover */
+  transform: scale(1.1); 
 }
 
 .main-content {
