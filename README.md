@@ -5,8 +5,6 @@ The application features a modern UI with dark theme, a video chat interface, an
   Features
 Video Chat: Live video streaming with adjustable controls.
 
-Chat Box: Real-time text chatting with support for emojis and reactions.
-
 User Authentication: Sign-in and sign-up functionality with email and password.
 
 Responsive Design: Adapts to various screen sizes and devices.
